@@ -123,3 +123,56 @@ h2:hover::after {
     transition: 0.5s;
     cursor: pointer;
 }
+
+.btn-box {
+    text-align: center;
+   
+}
+button {
+  background-color: rgb(85, 219, 246);
+  color: rgb(12, 9, 9);
+  font-size: 15px;
+  border: 2px solid rgb(1, 45, 55);
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(2, 79, 89);
+  color: rgb(249, 248, 249);
+    border: 2px solid rgb(106, 223, 249);
+
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 2px solid #ff7606;
+    color: #050505;
+    background-color: #a1d7ed;
+  
+
+}
+
+footer:hover {
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 2px solid #ff7606;
+    color: #012229;
+    background-color: #06b5fa;
+    cursor: pointer;
+    transition: 0.8s;
+}
