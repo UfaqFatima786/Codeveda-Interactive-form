@@ -57,7 +57,7 @@ h2:hover::after {
     transition: 0.5s;
     cursor: pointer;
     padding: 10px;
-    margin: 25px;
+    margin: 40px;
     border: 2px solid #ff8706;
 
 }
@@ -82,22 +82,25 @@ h2:hover::after {
     text-shadow: 20px;
     color: rgb(196, 225, 252);
     border: 2px solid rgb(195, 226, 248);
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .legend-00:hover {
     font-size: 30px;
     font-weight: bold;
-    color: #050505;
+    color: #012c31;
     border-radius: 10px;
     box-sizing: border-box;
     background-color: rgba(76, 155, 189, 0.711);
     text-decoration: underline;
     text-decoration-color: rgb(30, 59, 70);
     text-shadow: 20px;
-    color: rgb(3, 4, 5);
     border: 2px solid rgb(1, 46, 78);
     transition: 0.5s;
     cursor: pointer;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .label-00 {
@@ -109,11 +112,13 @@ h2:hover::after {
     transition: 0.5s;
     cursor: pointer;
 }
+
 .label-00:hover {
     border: 2px solid rgb(0, 77, 155);
     border-radius: 5px;
     font-size: 25px;
     background-color: rgba(139, 206, 240, 0.934);
+    color: rgba(1, 23, 37, 0.934);
     gap: 5px;
     transition: 0.5s;
     cursor: pointer;
