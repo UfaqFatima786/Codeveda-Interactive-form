@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.eurokidsindia.com/blog/wp-content/uploads/2023/11/innovative-learning-approaches-870x570.jpg');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 2px solid #ff7606;
+    color: #050505;
+    background-color: #a1d7ed;
+}
+
+h2:hover {
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 2px solid #ff7606;
+    color: #050505;
+    background-color: #06b5fa;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+h2:hover::after {
+    content: " 🚀";
+    color: rgb(10, 10, 10);
+    transition: 0.3s;
+}
+
+.education-form {
+    text-align: center;
+}
+
+.fieldset-00 {
+    background-color: rgba(6, 183, 253, 0.373);
+}
+
+.fieldset-00:hover {
+    background-color: rgba(1, 58, 81, 0.597);
+    transition: 0.5s;
+    cursor: pointer;
+}
