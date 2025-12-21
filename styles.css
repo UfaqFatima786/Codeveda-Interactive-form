@@ -124,6 +124,53 @@ h2:hover::after {
     cursor: pointer;
 }
 
+
+input[type="text"] {
+  width: 20%;
+  height: 40px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:hover {
+  background-color: #8e92c9;
+  border-color: rgb(72, 18, 71);
+  border-radius: 100px;
+  box-shadow: 10px rgba(128, 0, 128, 0.5);
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: rgb(3, 69, 85);
+  background-color: #02aefd;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+input[type="number"] {
+  width: 20%;
+  height: 40px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+input[type="number"]:hover {
+  background-color: #8e92c9;
+  border-color: rgb(72, 18, 71);
+  border-radius: 100px;
+  box-shadow: 10px rgba(128, 0, 128, 0.5);
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: rgb(3, 69, 85);
+  background-color: #02aefd;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
 .btn-box {
     text-align: center;
    
